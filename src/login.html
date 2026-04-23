@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Videobelajar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#eae6df] min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-orange-400">
+      video<span class="text-red-500">belajar</span>
+    </h1>
+  </header>
+
+  <!-- Card -->
+  <div class="flex flex-1 items-center justify-center">
+    <div class="bg-white rounded-lg shadow-md w-full max-w-md p-8">
+
+      <h2 class="text-2xl font-semibold text-center mb-2">
+        Masuk ke Akun
+      </h2>
+      <p class="text-gray-500 text-center mb-6 text-sm">
+        Yuk, lanjutin belajarmu di videobelajar.
+      </p>
+
+      <!-- Email -->
+      <div class="mb-4">
+        <label class="block text-sm mb-1">E-Mail <span class="text-red-500">*</span></label>
+        <input type="email" class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-400">
+      </div>
+
+      <!-- Password -->
+      <div class="mb-2">
+        <label class="block text-sm mb-1">Kata Sandi <span class="text-red-500">*</span></label>
+        <div class="relative">
+          <input type="password" class="w-full border rounded-md px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-green-400">
+          <span class="absolute right-3 top-2.5 text-gray-400 cursor-pointer">
+            👁️
+          </span>
+        </div>
+      </div>
+
+      <div class="text-right mb-4">
+        <a href="#" class="text-sm text-gray-500 hover:underline">Lupa Password?</a>
+      </div>
+
+      <!-- Buttons -->
+      <button class="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-md mb-3">
+        Masuk
+      </button>
+
+      <button class="w-full bg-green-200 text-green-700 py-2 rounded-md mb-4">
+        Daftar
+      </button>
+
+      <!-- Divider -->
+      <div class="flex items-center mb-4">
+        <div class="flex-grow border-t"></div>
+        <span class="mx-2 text-sm text-gray-400">atau</span>
+        <div class="flex-grow border-t"></div>
+      </div>
+
+      <!-- Google Button -->
+      <button class="w-full border py-2 rounded-md flex items-center justify-center gap-2 hover:bg-gray-50">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" class="w-5 h-5">
+        <span class="text-sm">Masuk dengan Google</span>
+      </button>
+
+    </div>
+  </div>
+
+</body>
+</html>
