@@ -53,15 +53,57 @@
               for="email"
               class="block text-gray-700 text-sm font-medium mb-1.5"
             >
-              E-Mail <span class="text-red-500">*</span>
+              Nama Lengkap <span class="text-red-500">*</span>
+            </label>
+            <input
+              type="text"
+              id="name"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+              placeholder="Nama Lengkap Anda"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="block text-gray-700 text-sm font-medium mb-1.5"
+            >
+              E-Mail<span class="text-red-500">*</span>
             </label>
             <input
               type="email"
               id="email"
               class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
-              placeholder="Contoh: nama@email.com"
+              placeholder="nama@gmail.com"
               required
             />
+          </div>
+          <div>
+            <label
+              for="phone"
+              class="block text-gray-700 text-sm font-medium mb-1.5"
+            >
+              No. Hp<span class="text-red-500">*</span>
+            </label>
+            <div class="flex shadow-sm">
+              <div
+                class="flex items-center border border-gray-300 border-r-0 rounded-l-lg bg-gray-500 px-4"
+              >
+                <img
+                  src="/src/asset/images/Indonesia.png"
+                  alt="ID"
+                  class="h-4 w-6 object-cover rounded-sm"
+                />
+                <span class="ml-2 text-sm text-gray-600 font-medium">+62</span>
+              </div>
+              <input
+                type="tel"
+                id="phone"
+                class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+                placeholder="082261234567"
+                required
+              />
+            </div>
           </div>
           <div>
             <label
@@ -74,7 +116,22 @@
               type="password"
               id="password"
               class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
-              placeholder="Masukkan Kata Sandi"
+              placeholder="Buat Kata Sandi"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="confirm-password"
+              class="block text-gray-700 text-sm font-medium mb-1.5"
+            >
+              Konfirmasi Kata Sandi <span class="text-red-500">*</span>
+            </label>
+            <input
+              type="password"
+              id="confirm-password"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+              placeholder="Ulangi Kata Sandi"
               required
             />
           </div>
@@ -92,12 +149,12 @@
               type="submit"
               class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-md"
             >
-              Masuk
+              Daftar
             </button>
             <a
-              href="./register.html"
+              href="./login.html"
               class="block w-full bg-green-100 hover:bg-green-200 text-green-700 font-bold py-3 px-4 rounded-md text-center"
-              >Register</a
+              >Masuk</a
             >
           </div>
 
